@@ -1,0 +1,7 @@
+#Wed Jul 05 17:59:09 BRT 2017
+base.0=D\:\\IFRS\\2017\\01\\40\\Projeto\\170705 0356\\pw3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7aef19ed22a8edd56dc2480da1c92c31858cf773
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=D\:\\IFRS\\2017\\01\\40\\Projeto\\170705 0356\\pw3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0ef8c4cfcad242a774f6a3ec3e8949eb295f400e\\classes.dex
+base.1=D\:\\IFRS\\2017\\01\\40\\Projeto\\170705 0356\\pw3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0ef8c4cfcad242a774f6a3ec3e8949eb295f400e
+file.0=D\:\\IFRS\\2017\\01\\40\\Projeto\\170705 0356\\pw3\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_7aef19ed22a8edd56dc2480da1c92c31858cf773\\classes.dex

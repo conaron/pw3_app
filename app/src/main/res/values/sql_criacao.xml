@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="curso">
+        create table curso (
+            _id integer primary key autoincrement,
+            nome text,
+            descricao text
+            );
+    </string>
+
+    <string name="enquete">
+        create table enquete (
+            _id integer primary key autoincrement,
+            op_1 text,
+            op_1_qnt integer,
+            op_2 text,
+            op_2_qnt integer,
+            op_3 text,
+            op_3_qnt integer
+            );
+    </string>
+
+    <string name="inscricao">
+        create table inscricao (
+            _id integer primary key autoincrement,
+            nome text,
+            email text,
+            fone text,
+            curso integer,
+            usuario integer,
+            FOREIGN KEY(curso) REFERENCES curso(_id)
+            );
+    </string>
+
+    <string name="noticia">
+        create table noticia (
+            _id integer primary key autoincrement,
+            titulo text,
+            imagem text,
+            manchete text,
+            noticia text
+            );
+    </string>
+
+    <string name="usuario">
+        create table usuario (
+            _id integer primary key autoincrement,
+            nome text,
+            email text,
+            senha text
+            );
+    </string>
+
+</resources>

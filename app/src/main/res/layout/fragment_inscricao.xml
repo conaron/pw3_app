@@ -1,0 +1,67 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ifrs.pw3.fragment.InscricaoFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Spinner
+                android:id="@+id/inscricao_curso_departamento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <Spinner
+                android:id="@+id/inscricao_curso"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false" />
+
+            <EditText
+                android:id="@+id/inscricao_nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hnt_inscricao_nome" />
+
+            <EditText
+                android:id="@+id/inscricao_fone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hnt_inscricao_fone" />
+
+            <EditText
+                android:id="@+id/inscricao_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/hnt_inscricao_email" />
+
+            <Button
+                android:id="@+id/inscricao_btn_descricao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:text="@string/lbl_inscricao_btn_descricao"
+                android:textSize="18sp" />
+
+            <Button
+                android:id="@+id/inscricao_btn_envia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="50dp"
+                android:text="@string/lbl_inscricao_btn_enviar"
+                android:textSize="18sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

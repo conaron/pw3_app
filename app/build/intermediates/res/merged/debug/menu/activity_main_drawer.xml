@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_noticias"
+            android:icon="@drawable/ic_novidades"
+            android:title="@string/lbl_nav_noticias" />
+        <item
+            android:id="@+id/nav_enquete"
+            android:icon="@drawable/ic_enquete"
+            android:title="@string/lbl_nav_enquete" />
+        <item
+            android:id="@+id/nav_conheca"
+            android:icon="@drawable/ic_conheca"
+            android:title="@string/lbl_nav_conheca" />
+        <item
+            android:id="@+id/nav_inscricoes"
+            android:icon="@drawable/ic_inscricao"
+            android:title="@string/lbl_nav_inscricoes" />
+    </group>
+
+    <item android:title="Contato">
+
+        <!--<item android:title="CEP: 91780-070" />-->
+        <!--<item android:title="Porto Alegre" />-->
+        <!--<item android:title="Rio Grande do Sul" />-->
+
+        <menu>
+
+            <item android:title="Avenida Juca Batista, 7570" />
+            <item android:title="CEP: 91780-070" />
+
+        </menu>
+    </item>
+
+</menu>
+

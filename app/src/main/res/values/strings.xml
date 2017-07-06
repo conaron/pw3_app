@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">NCC Belém</string>
+
+    <string name="navigation_drawer_open">Abrir menu</string>
+    <string name="navigation_drawer_close">Fechar menu</string>
+
+    <string name="action_settings">Configurações</string>
+    <string name="txt_titulo">NCC Belém</string>
+    <string name="lbl_nav_noticias">NOVIDADES NO NCC</string>
+    <string name="lbl_nav_enquete">ENQUETE DO MÊS</string>
+    <string name="lbl_nav_conheca">CONHEÇA O NCC</string>
+    <string name="lbl_nav_inscricoes">INSCRIÇÕES</string>
+    <string name="title_activity_login">Login</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Login</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">Este endereço de e-mail é inválido</string>
+    <string name="error_invalid_password">Esta senha é muito curta</string>
+    <string name="error_incorrect_password">A senha está incorreta</string>
+    <string name="error_field_required">Este campo e necessário</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="lvl_nav_facebook">Facebook</string>
+    <string name="lbl_nav_email">Enviar e-mail</string>
+    <string name="txt_nome">Núcleo Comunitário e Cultural Belém Novo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="lbl_frm_email">Fragmento de E-Mail</string>
+    <string name="lbl_frm_enquete">Enquete - Questao</string>
+    <string name="lbl_frm_inscricao">Fragmento de Inscricao</string>
+    <string name="lbl_frm_conheca">Fragmento de Dados sore NCC</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_email">EmailActivity</string>
+    <string name="lbl_adp_noticia_titulo">Titulo</string>
+    <string name="lbl_adp_noticia_manchete">Manchete</string>
+    <string name="lbl_adp_noticia_noticia">Noticia</string>
+    <string name="lbl_adp_noticia_imagem">Imagem</string>
+
+    <string name="txt_fragmento_conheca_historia_titulo">história</string>
+    <string name="txt_fragmento_conheca_sobre_titulo">sobre o núcleo comunitário e cultural de belém novo</string>
+    <string name="txt_fragmento_conheca_area_titulo">área geográfica</string>
+
+    <string name="txt_fragmento_conheca_historia_texto">O NCC Belém surgiu da necessidade de aproximação da Brigada Militar com a comunidade de Belém Novo e arredores. \nSurgiu em forma de trabalho informal no ano de 2002, através do grupo de voluntários coordenados pela Brigada Militar, em especial os habitantes do Loteamento Chapéu do Sol, por meio de um “sopão comunitário" servido todas as sextas feiras. \nA atividade cresceu, outras pessoas se aproximaram para realizar trabalhos voluntários e em agosto de 2004 foi transformada em entidade jurídica. \nO Núcleo tem o objetivo de propiciar para as Comunidades de Belém Novo e arredores a condição de trabalho, a geração de renda, o desenvolvimento sustentável e integrado, a justiça social, o respeito ao meio ambiente, o desenvolvimento comunitário e a melhoria da autoestima. Através de um trabalho cultural, social e educativo, além de oficinas e palestras. \nTemos obtido resultados positivos. Onde tinhamos uma comunidade sem oportunidades e violenta, hoje proporcionamos novos horizontes, graças a esse trabalho social. \nEm reconhecimento a esse trabalho, em 2006 fomos escolhidos para receber o Prêmio Direitos Humanos da UNESCO. Desde o início dos cursos já encaminhamos muitos alunos ao mercado de trabalho e grande parte deles retomaram os estudos (alguns ingressaram na faculdade). \nHoje em nossa ONG oferecemos uma variedade de cursos e oficinas. Confira!</string>
+    <string name="txt_fragmento_conheca_sobre_texto">Somos uma organização beneficente, sem fins lucrativos cuja missão e promover a inclusão social das parcelas carentes da comunidade de Belém Novo e arredores com foco na complementação educacional e cultural, bem como na formação profissional.</string>
+    <string name="txt_fragmento_conheca_area_texto">Nossa área geográfica de atuação são os bairros:\n\n- Belém Novo\n- Chapéu do Sol\n- Lami\n- Ponta Grossa</string>
+    <string name="lbl_enquete_btn_votar">Votar</string>
+    <string name="txt_loren_ipsum">A população ela precisa da Zona Franca de Manaus, porque na Zona franca de Manaus, não é uma zona de exportação, é uma zona para o Brasil. Portanto ela tem um objetivo, ela evita o desmatamento, que é altamente lucravito. Derrubar arvores da natureza é muito lucrativo! No meu xinélo da humildade eu gostaria muito de ver o Neymar e o Ganso. Por que eu acho que.... 11 entre 10 brasileiros gostariam. Você veja, eu já vi, parei de ver. Voltei a ver, e acho que o Neymar e o Ganso têm essa capacidade de fazer a gente olhar.</string>
+    <string name="txt_dados_do_aluno">Dados do Aluno</string>
+    <string name="txt_cursos_matriculados">Cursos Matriculados</string>
+    <string name="hnt_inscricao_nome">Nome</string>
+    <string name="hnt_inscricao_fone">Telefone</string>
+
+    <string-array name="txt_fragmento_aba">
+        <item>sobre</item>
+        <item>história</item>
+        <item>área</item>
+    </string-array>
+
+    <string-array name="txt_fragmento_titulo">
+        <item>história</item>
+        <item>sobre o núcleo comunitário e cultural de belém novo</item>
+        <item>área geográfica</item>
+    </string-array>
+
+    <string-array name="txt_fragmento_texto">
+        <item>O NCC Belém surgiu da necessidade de aproximação da Brigada Militar com a comunidade de Belém Novo e arredores. \nSurgiu em forma de trabalho informal no ano de 2002, através do grupo de voluntários coordenados pela Brigada Militar, em especial os habitantes do Loteamento Chapéu do Sol, por meio de um “sopão comunitário" servido todas as sextas feiras. \nA atividade cresceu, outras pessoas se aproximaram para realizar trabalhos voluntários e em agosto de 2004 foi transformada em entidade jurídica. \nO Núcleo tem o objetivo de propiciar para as Comunidades de Belém Novo e arredores a condição de trabalho, a geração de renda, o desenvolvimento sustentável e integrado, a justiça social, o respeito ao meio ambiente, o desenvolvimento comunitário e a melhoria da autoestima. Através de um trabalho cultural, social e educativo, além de oficinas e palestras. \nTemos obtido resultados positivos. Onde tinhamos uma comunidade sem oportunidades e violenta, hoje proporcionamos novos horizontes, graças a esse trabalho social. \nEm reconhecimento a esse trabalho, em 2006 fomos escolhidos para receber o Prêmio Direitos Humanos da UNESCO. Desde o início dos cursos já encaminhamos muitos alunos ao mercado de trabalho e grande parte deles retomaram os estudos (alguns ingressaram na faculdade). \nHoje em nossa ONG oferecemos uma variedade de cursos e oficinas. Confira!</item>
+        <item>Somos uma organização beneficente, sem fins lucrativos cuja missão e promover a inclusão social das parcelas carentes da comunidade de Belém Novo e arredores com foco na complementação educacional e cultural, bem como na formação profissional.</item>
+        <item>Nossa área geográfica de atuação são os bairros:\n\n- Belém Novo\n- Chapéu do Sol\n- Lami\n- Ponta Grossa</item>
+    </string-array>
+
+</resources>

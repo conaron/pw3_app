@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="txt_inscricao_departamento">
+        <item>CONVENIOS</item>
+        <item>CULTURAL</item>
+        <item>EDUCACIONAL</item>
+        <item>PROFISSIONALIZANTE</item>
+        <item>PROJETOS</item>
+    </string-array>
+    <string-array name="txt_inscricao_curso">
+        <item>CONVENIOS</item>
+        <item>CULTURAL</item>
+        <item>EDUCACIONAL</item>
+        <item>PROFISSIONALIZANTE</item>
+        <item>PROJETOS</item>
+    </string-array>
+    <string name="lbl_inscricao_btn_descricao">Descrição</string>
+    <string name="lbl_inscricao_btn_enviar">Enviar Solicitação</string>
+    <string name="hnt_inscricao_email">e-mail</string>
+</resources>

@@ -1,0 +1,62 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="ifrs.pw3.fragment.EnqueteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/enquete_text_pergunta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/lbl_frm_enquete"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <RadioGroup
+        android:id="@+id/enquete_rdg_opcoes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="55dp">
+
+        <RadioButton
+            android:id="@+id/enquete_rdb_op1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:text="opcao 1"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/enquete_rdb_op2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="opcao 2"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/enquete_rdb_op3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="opcao 3"
+            android:textSize="18sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/enquete_btn_votar"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="233dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="55dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/lbl_enquete_btn_votar" />
+
+</LinearLayout>
